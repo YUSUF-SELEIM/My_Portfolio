@@ -54,7 +54,9 @@ a:hover {
 	font-size: 30px;
 }
 .content {
+    flex: 1 auto;
 	display: flex;
+    flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
 }
@@ -64,12 +66,13 @@ a:hover {
 }
 /* portion Two */
 .portion-two {
+    margin-top: 200px;
 	flex: 1 auto;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 80px;
+	gap: 50px;
 }
 h2 {
 	font-size: 60px;
@@ -78,7 +81,12 @@ h2 {
 	color: #708484;
 }
 .skills {
+    flex: 1 auto;
 	display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 	gap: 80px;
 }
 .card {
@@ -98,10 +106,12 @@ h2 {
 	color: #455252;
 }
 .portion-three {
+    margin-top: 200px;
 	flex: 1 auto;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
+    flex-wrap: wrap;
 	align-items: center;
 	gap: 80px;
 }
