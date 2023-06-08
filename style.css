@@ -122,10 +122,10 @@ button {
 	border-radius: 100%;
 	bottom: 0;
 	right: 0;
-    color: #455252;
-    background-color: #c4dfdf;
-    border: 2px solid #455252;
+	color: #455252;
+	background-color: #c4dfdf;
+	border: 2px solid #455252;
 }
-button:hover{
-    border: none;
+button:hover {
+	border: none;
 }
