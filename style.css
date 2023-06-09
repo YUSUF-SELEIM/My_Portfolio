@@ -139,14 +139,14 @@ button {
 button:hover {
 	border: none;
 }
-@media only screen and (max-width:1000px) {
-	.top-bar{
+@media only screen and (max-width: 1000px) {
+	.top-bar {
 		width: 100%;
 	}
-	.portion-one{
+	.portion-one {
 		height: 100%;
 	}
-	.content{
+	.content {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -154,16 +154,25 @@ button:hover {
 		text-align: center;
 		gap: 50px;
 	}
-	.portion-two{
+	.portion-two {
 		display: flex;
 		flex-direction: column;
 		height: 100%;
 	}
-	.skills{
+	.skills {
 		display: flex;
 		flex-wrap: wrap;
 	}
-	.contact-cards{
-		padding: 10px;
+	.portion-three {
+		gap: 30px;
+	}
+	.contact-cards {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		padding: 5px;
+	}
+	.contact-cards p {
+		font-size: 19px;
 	}
 }
